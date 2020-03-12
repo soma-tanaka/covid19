@@ -18,44 +18,45 @@ export default {
     return {
       items: [
         {
-          title: '新型コロナウイルス感染症対応緊急融資',
+          title: '新型コロナウイルス対策休業助成金制度',
           link:
-            'https://www.metro.tokyo.lg.jp/tosei/hodohappyo/press/2020/03/05/26.html',
+            'https://www.pref.yamanashi.jp/koucho/coronavirus/info_coronavirus.html#rosei',
           body:
-            '新型コロナウイルス感染症により事業活動に影響を受けている中小企業等を対象とした緊急融資制度です。融資限度額は2億8千万円で、信用保証料を都が全額補助します。'
+            'リンク先掲載の助成対象者に対して、休業した日、一人につき一日4,000円が助成されます。
+令和2年3月31日までの申請が必要です。'
         },
         {
-          title: '新型コロナウイルスによる経営課題に関する専門家派遣',
-          link: 'https://www.tokyo-kosha.or.jp/topics/2003/0001.html',
+          title: '子育て家庭休業助成金制度',
+          link: 'https://www.pref.yamanashi.jp/koucho/coronavirus/info_coronavirus.html#josei',
           body:
-            '新型コロナウイルス感染症により経営面の影響を受けている中小企業を対象に、中小企業診断士等の専門家を無料で派遣し、経営改善等に向けたアドバイスを実施します（１社あたり４回まで・無料）。'
+            '子どもが小学校や保育所等へ登校・登園をしなかったことに伴い保護者が休業を余儀なくされた方に、一定額の助成を行うものです。'
         },
         {
-          title: '事業継続緊急対策（テレワーク）助成金',
+          title: '経済変動対策融資（経済危機関係）',
           link:
-            'https://www.shigotozaidan.or.jp/koyo-kankyo/joseikin/kinkyutaisaku.html',
+            'https://www.pref.yamanashi.jp/koucho/coronavirus/documents/r020302keizaikiki.pdf',
           body:
-            '都内中堅・中小企業に対し、テレワークの導入に必要な機器やソフトウェア等の経費を助成します（限度額250万円、助成率10/10）。ぜひご活用ください。'
+            '1カ月間の売上高等が前年同月比で20％以上減少しており、かつ、その後の2カ月間を含む3カ月間の売上高等が前年同期比で20％以上の減少が見込まれる方が対象です。'
+        },
+        {
+          title: '経済変動対策融資（不況業種対策関係）',
+          link:
+            'https://www.pref.yamanashi.jp/koucho/coronavirus/documents/r020306fukyougyousyu.pdf',
+          body:
+            '中小企業信用保険法第2条第5項第5号で指定する不況業種で、直近3カ月間の売上高等が前年同期比5%以上減少するなどしている方が対象です。'
+        },
+        {
+          title: 'その他の融資',
+          link:
+            'https://www.pref.yamanashi.jp/shougyo/42590388393.html',
+          body:
+            'その他の融資についてはこちらをご覧ください。'
         },
         {
           title: '中小企業者等特別相談窓口',
-          link:
-            'https://www.metro.tokyo.lg.jp/tosei/hodohappyo/press/2020/01/30/15.html',
+          link: 'https://www.pref.yamanashi.jp/shouko-kik/koronasoudanmadoguchi.html',
           body:
-            '資金繰りに関する相談、経営に関する相談（東京都産業労働局　報道発表）'
-        },
-        {
-          title: '緊急労働相談ダイヤル',
-          link:
-            'https://www.metro.tokyo.lg.jp/tosei/hodohappyo/press/2020/02/26/22.html',
-          body:
-            '新型コロナウイルスに関する休暇や休業の取り扱い、職場のハラスメントなどについての相談（東京都産業労働局　報道発表）'
-        },
-        {
-          title: '新しいワークスタイルや企業活動の東京モデル「スムーズビズ」',
-          link: 'https://smooth-biz.metro.tokyo.lg.jp/',
-          body:
-            'テレワーク・時差出勤などスムーズビズの取組は、新型コロナウイルス感染症の対策としても効果的です。感染症対策として、東京2020大会時の交通混雑緩和に向けた取組の前倒しをお願いします。'
+            '県、商工会議所、商工会などの新型コロナウイルスに関する中小企業・小規模企業の相談窓口の一覧です。'
         }
       ]
     }
