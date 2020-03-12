@@ -22,8 +22,7 @@ export default {
           link:
             'https://www.pref.yamanashi.jp/koucho/coronavirus/info_coronavirus.html#rosei',
           body:
-            'リンク先掲載の助成対象者に対して、休業した日、一人につき一日4,000円が助成されます。
-令和2年3月31日までの申請が必要です。'
+            'リンク先掲載の助成対象者に対して、休業した日、一人につき一日4,000円が助成されます。令和2年3月31日までの申請が必要です。'
         },
         {
           title: '子育て家庭休業助成金制度',
