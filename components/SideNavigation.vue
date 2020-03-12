@@ -40,20 +40,13 @@
       <div class="SideNavigation-Footer">
         <div class="SideNavigation-SocialLinkContainer">
           <a
-            href="https://line.me/R/ti/p/%40822sysfc"
-            target="_blank"
-            rel="noopener"
-          >
-            <img src="/line.png" alt="LINE" />
-          </a>
-          <a
-            href="https://twitter.com/tokyo_bousai"
+            href="https://twitter.com/Covid19Y"
             target="_blank"
             rel="noopener"
           >
             <img src="/twitter.png" alt="Twitter" />
           </a>
-          <a href="https://github.com/tokyo-metropolitan-gov/covid19">
+          <a href="https://github.com/covid19-yamanashi/covid19">
             <img src="/github.png" alt="GitHub" />
           </a>
         </div>
@@ -66,7 +59,7 @@
           >
             Creative Commons Attribution 4.0 International License </a
           ><br />
-          2020 Tokyo Metropolitan Government
+          © 2020 stopcovid19.yamanashi.dev
         </small>
       </div>
     </div>
