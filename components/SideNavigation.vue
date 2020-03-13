@@ -110,14 +110,14 @@ export default {
           link: '/'
         },
         {
-          icon: 'parent',
-          title: this.$t('for Families with children'),
-          link: '/parent'
-        },
-        {
           icon: 'mdi-account-multiple',
           title: this.$t('for Citizens'),
           link: 'https://www.pref.yamanashi.jp/koucho/coronavirus/info_coronavirus.html'
+        },
+        {
+          icon: 'parent',
+          title: this.$t('for Families with children'),
+          link: '/parent'
         },
         {
           icon: 'mdi-domain',
@@ -131,10 +131,6 @@ export default {
             'https://www.youtube.com/watch?v=HWI8KfjAt9g'
         },
         {
-          title: this.$t('About us'),
-          link: '/about'
-        },
-        {
           title: this.$t('Government official website'),
           link: 'https://www.pref.yamanashi.jp/index.html',
           divider: true
@@ -143,7 +139,11 @@ export default {
           title: this.$t('Government official Twitter'),
           link: 'https://twitter.com/coronayamanashi',
           divider: true
-        }
+        },
+        {
+          title: this.$t('About us'),
+          link: '/about'
+        } 
       ]
     },
     isClass() {
