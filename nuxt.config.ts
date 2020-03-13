@@ -66,7 +66,7 @@ const config: Configuration = {
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://stopcovid19.metro.tokyo.lg.jp/ogp.jpg'
+        content: 'https://stopcovid19-dev.yamanashi.dev/ogp.jpg'
       }
     ],
     link: [
