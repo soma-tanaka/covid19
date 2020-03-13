@@ -10,10 +10,6 @@
 
 All contributions are welcome!
 
-## Code of Conduct
-
-Please check [Code of conduct for developers](./.github/CODE_OF_CONDUCT_EN.md) for details.
-
 ## License
 This software is released under [the MIT License](./LICENSE.txt).
 
