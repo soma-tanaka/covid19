@@ -32,11 +32,3 @@ $ yarn dev
 # serve with hot reload at localhost:3000
 $ docker-compose up --build
 ```
-
-### Deploy 到 Staging 環境以及正式環境的方法
-
-當 `master` 分支被更新時，HTML 檔案將會在 `production` 分支中被組建 (build)起來。然後正式版網站 https://stopcovid19.metro.tokyo.lg.jp/ 會被更新。
-
-當 `staging` 分支被更新時，HTML 檔案將會在 `gh-pages` 分支中被組建 (build)起來。然後 Staging 版網站 https://stg-covid19-tokyo.netlify.com/ 會被更新。
-
-當 `development` 分支被更新時，HTML 檔案將會在 `dev-pages` 分支中被組建 (build)起來。然後開發版網站 https://dev-covid19-tokyo.netlify.com/ 會被更新。

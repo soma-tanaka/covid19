@@ -32,11 +32,3 @@ $ yarn dev
 # serve with hot reload at localhost:3000
 $ docker-compose up --build
 ```
-
-### 发布到 Staging环境以及正式环境的方法
-
-`master` 分支更新時，自动将 `production` 分支中的HTML类(build)后发布到正式版 https://stopcovid19.metro.tokyo.lg.jp/
-
-`staging` 分支更新時，自动将 `gh-pages` 分支中的HTML类(build)后发布到Staging版 https://stg-covid19-tokyo.netlify.com/
-
-`development` 分支更新時，自动将 `dev-pages` 分支中的HTML类(build)后发布到开发版 https://dev-covid19-tokyo.netlify.com/
