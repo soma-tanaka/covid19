@@ -56,17 +56,17 @@ const config: Configuration = {
       {
         hid: 'twitter:site',
         name: 'twitter:site',
-        content: '@tokyo_bousai'
+        content: '@Covid19Y'
       },
       {
         hid: 'twitter:creator',
         name: 'twitter:creator',
-        content: '@tokyo_bousai'
+        content: '@Covid19Y'
       },
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://stopcovid19.metro.tokyo.lg.jp/ogp.png'
+        content: 'https://stopcovid19.metro.tokyo.lg.jp/ogp.jpg'
       }
     ],
     link: [
