@@ -35,7 +35,7 @@
       </v-col>
       <v-col cols="12" md="6" class="DataCard">
         <time-bar-chart
-          title="検査実施数"
+          title="県内の疑似症例の検査状況"
           :title-id="'number-of-tested'"
           :chart-id="'time-stacked-bar-chart-inspections'"
           :chart-data="inspectionsGraph"
