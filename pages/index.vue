@@ -73,8 +73,6 @@ export default {
     const patientsGraph = formatGraph(Data.patients_summary.data)
     // 感染者数
     const patientsTable = formatTable(Data.patients.data)
-    // 退院者グラフ
-    const dischargesGraph = formatGraph(Data.discharges_summary.data)
 
     // 検査実施日別状況
     const inspectionsGraph = formatGraph(Data.inspections_summary.data)
@@ -104,7 +102,6 @@ export default {
       Data,
       patientsTable,
       patientsGraph,
-      dischargesGraph,
       inspectionsGraph,
       inspectionsItems,
       inspectionsLabels,
