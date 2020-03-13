@@ -1,18 +1,13 @@
-# Cổng thông tin chống dịch CoVid-19 của TP Tokyo 
+# Cổng thông tin chống dịch CoVid-19 của TP Yamanashi 
 
-![](https://github.com/tokyo-metropolitan-gov/covid19/workflows/production%20deploy/badge.svg)
+![production deploy](https://github.com/covid19-yamanashi/covid19/workflows/production%20deploy/badge.svg)
 
-[![Cổng thông tin chống dịch CoVid-19 của TP Tokyo](https://user-images.githubusercontent.com/1301149/75629392-1d19d900-5c25-11ea-843d-2d4376e3a560.png)](https://stopcovid19.metro.tokyo.lg.jp/)
+[![Cổng thông tin chống dịch CoVid-19 của TP Tokyo](https://user-images.githubusercontent.com/2931035/76643703-ef278380-6598-11ea-9cf1-4e3a44c93bdc.jpg)](https://stopcovid19.yamanashi.dev/)
 
 ### 日本語 | [English](./README_EN.md) | [Spanish](./README_ES.md) | [Korean](./README_KO.md) | [Chinese (Taiwan)](./README_ZH_TW.md) | [Chinese (Simplified)](./README_ZH_CN.md) | [Vietnamese](./README_VI.md)
 
 ## Làm thế nào để đóng góp
 Mọi đóng góp của các bạn đều được chào đón. 
-Xin vui lòng đọc [tại đây](./.github/CONTRIBUTING_VI.md) để biết thêm chi tiết.
-
-
-## Quy tắc ứng xử
-Chi tiết vui lòng xem [tại đây](./.github/CODE_OF_CONDUCT_VI.md)
 
 ## Giấy phép
 Phần mềm này được phân phối dưới giấy phép [MIT](./LICENSE.txt)
@@ -37,11 +32,3 @@ $ yarn dev
 # serve with hot reload at localhost:3000
 $ docker-compose up --build
 ```
-
-### Triển khai lên môi trường staging và production 
-
-Khi nhánh `master` được cập nhật, file HTML sẽ tự động được build dựa trên nhánh `production`. Sau đó https://stopcovid19.metro.tokyo.lg.jp/ sẽ được cập nhật.
-
-Khi nhánh `staging` được cập nhật, file HTML sẽ tự động được build dựa trên nhánh `gh-pages`. Sau đó https://stg-covid19-tokyo.netlify.com/ sẽ được cập nhật.
-
-Khi nhánh `development` được cập nhật, file HTML sẽ tự động được build dựa trên nhánh `dev-pages`. Sau đó https://dev-covid19-tokyo.netlify.com/ sẽ được cập nhật.
