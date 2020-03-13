@@ -33,7 +33,7 @@
           target="_blank"
           rel="noopener"
         >
-          オープンデータへのリンク
+          出典: 山梨県ウェブサイト
           <v-icon class="ExternalLinkIcon" size="15">
             mdi-open-in-new
           </v-icon>
