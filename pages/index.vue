@@ -58,7 +58,7 @@ import Data from '@/data/data.json'
 import DataTable from '@/components/DataTable.vue'
 import formatGraph from '@/utils/formatGraph'
 import formatTable from '@/utils/formatTable'
-import formatConfirmedCases from '@/utils/formatConfirmedCases'
+// import formatConfirmedCases from '@/utils/formatConfirmedCases'
 import News from '@/data/news.json'
 
 export default {
@@ -88,7 +88,7 @@ export default {
     //   Data.patients.data.filter(patient => patient['備考'] === '死亡')
     // )
     // 検査陽性者の状況
-    const confirmedCases = formatConfirmedCases(Data.main_summary)
+    // const confirmedCases = formatConfirmedCases(Data.main_summary)
 
     const sumInfoOfPatients = {
       lText: patientsGraph[
@@ -105,7 +105,7 @@ export default {
       inspectionsGraph,
       inspectionsItems,
       inspectionsLabels,
-      confirmedCases,
+      // confirmedCases,
       sumInfoOfPatients,
       headerItem: {
         icon: 'mdi-chart-timeline-variant',
