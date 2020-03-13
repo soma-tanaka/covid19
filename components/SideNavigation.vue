@@ -188,7 +188,7 @@ export default {
   }
   &-Logo {
     margin: 20px 16px 0 0;
-    width: 110px;
+    width: 140px;
     @include lessThan($small) {
       margin-top: 0;
     }
