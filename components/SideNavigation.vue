@@ -133,7 +133,6 @@ export default {
         {
           title: this.$t('Government official website'),
           link: 'https://www.pref.yamanashi.jp/index.html',
-          divider: true
         },
         {
           title: this.$t('Government official Twitter'),
