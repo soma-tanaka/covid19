@@ -108,7 +108,6 @@ export default {
           icon: 'mdi-chart-timeline-variant',
           title: this.$t('The latest updates'),
           link: '/'
-          divider: true
         },
         {
           icon: 'mdi-account-multiple',
