@@ -1,8 +1,8 @@
 <template>
   <v-app class="app">
     <div v-if="loading" class="loader">
-      <img src="/logo.svg" alt="東京都" />
-      <scale-loader color="#00A040" />
+      <img src="/logo.svg" alt="STOP COVID-19 YAMANASHI" />
+      <scale-loader color="#694e84" />
     </div>
     <div v-else class="appContainer">
       <div class="naviContainer">
