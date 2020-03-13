@@ -103,7 +103,9 @@
     <TextCard title="お問い合わせ先">
       stopcovid19.yamanashi.devチーム<br />
       Twitter
-      <a href="https://twitter.com/Covid19Y" target="_blank" rel="noopener">@Covid19Y</a>
+      <a href="https://twitter.com/Covid19Y" target="_blank" rel="noopener"
+        >@Covid19Y</a
+      >
     </TextCard>
   </div>
 </template>
