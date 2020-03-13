@@ -30,7 +30,7 @@ const config: Configuration = {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://stopcovid19.yamanashi.dev/'
+        content: 'https://stopcovid19-dev.yamanashi.dev/'
       },
       {
         hid: 'og:title',
@@ -46,7 +46,7 @@ const config: Configuration = {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: '/ogp.jpg'
+        content: 'https://stopcovid19-dev.yamanashi.dev/ogp.jpg'
       },
       {
         hid: 'twitter:card',
