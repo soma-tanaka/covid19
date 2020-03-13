@@ -10,7 +10,7 @@
       </v-icon>
       <nuxt-link to="/" class="SideNavigation-HeadingLink">
         <div class="SideNavigation-Logo">
-          <img src="/logo.svg" :alt="$t('Tokyo')" />
+          <img src="/logo.svg" :alt="$t('Yamanashi')" />
         </div>
         <h1 class="SideNavigation-Heading">
           {{ $t('COVID-19') }}<br />{{ $t('Measures site') }}
@@ -39,34 +39,23 @@
       </v-list>
       <div class="SideNavigation-Footer">
         <div class="SideNavigation-SocialLinkContainer">
-          <a
-            href="https://line.me/R/ti/p/%40822sysfc"
-            target="_blank"
-            rel="noopener"
-          >
-            <img src="/line.png" alt="LINE" />
-          </a>
-          <a
-            href="https://twitter.com/tokyo_bousai"
-            target="_blank"
-            rel="noopener"
-          >
+          <a href="https://twitter.com/Covid19Y" target="_blank" rel="noopener">
             <img src="/twitter.png" alt="Twitter" />
           </a>
-          <a
-            href="https://www.facebook.com/tochokoho"
-            target="_blank"
-            rel="noopener"
-          >
-            <img src="/facebook.png" alt="Facebook" />
-          </a>
-          <a href="https://github.com/tokyo-metropolitan-gov/covid19">
+          <a href="https://github.com/covid19-yamanashi/covid19">
             <img src="/github.png" alt="GitHub" />
           </a>
         </div>
         <small class="SideNavigation-Copyright" lang="en">
-          Copyright &copy; 2020 Tokyo Metropolitan Government. All Rights
-          Reserved.
+          Content on This Site is Licensed Under a
+          <a
+            rel="license"
+            target="_blank"
+            href="http://creativecommons.org/licenses/by/4.0/"
+          >
+            Creative Commons Attribution 4.0 International License </a
+          ><br />
+          © 2020 stopcovid19.yamanashi.dev
         </small>
       </div>
     </div>
@@ -78,20 +67,18 @@
   "ja": {
     "Navi Open": "サイドメニュー項目を開く",
     "Navi Close": "サイドメニュー項目を閉じる",
-    "Tokyo": "東京都",
+    "Yamanashi": "山梨県",
     "COVID-19": "新型コロナウイルス感染症",
     "Measures site": "対策サイト",
     "Tokyo Metropolitan Government": "東京都",
     "Tokyo COVID-19 Task Force": "新型コロナウイルス感染症対策本部",
-    "The latest updates": "都内の最新感染動向",
-    "If you have any symptoms": "新型コロナウイルス感染症が心配なときに",
+    "The latest updates": "県内の最新感染動向",
+    "for Citizens": "山梨県による総合情報",
     "for Families with children": "お子様をお持ちの皆様へ",
-    "for Citizens": "都民の皆様へ",
     "for Enterprises and Employees": "企業の皆様・はたらく皆様へ",
-    "Official statements from Task Force": "東京都新型コロナウイルス感染症対策本部報",
-    "Cancelled public events": "東京都主催等 中止又は延期するイベント等",
-    "Government official website": "東京都公式ホームページ",
-    "Message from Governor Koike": "知事からのメッセージ",
+    "Message from Governor Nagasaki": "知事からのメッセージ",
+    "Government official website": "山梨県公式ホームページ",
+    "Government official Twitter": "山梨県新型コロナウイルス対策 Twitter",
     "About us": "当サイトについて"
   }
 }
@@ -119,20 +106,15 @@ export default {
           link: '/'
         },
         {
-          icon: 'covid',
-          title: this.$t('If you have any symptoms'),
-          link: '/flow',
-          divider: true
+          icon: 'mdi-account-multiple',
+          title: this.$t('for Citizens'),
+          link:
+            'https://www.pref.yamanashi.jp/koucho/coronavirus/info_coronavirus.html'
         },
         {
           icon: 'parent',
           title: this.$t('for Families with children'),
           link: '/parent'
-        },
-        {
-          icon: 'mdi-account-multiple',
-          title: this.$t('for Citizens'),
-          link: 'https://www.metro.tokyo.lg.jp/tosei/tosei/news/2019-ncov.html'
         },
         {
           icon: 'mdi-domain',
@@ -141,27 +123,21 @@ export default {
           divider: true
         },
         {
-          title: this.$t('Official statements from Task Force'),
-          link:
-            'https://www.bousai.metro.tokyo.lg.jp/taisaku/saigai/1007261/index.html'
-        },
-        {
-          title: this.$t('Cancelled public events'),
-          link:
-            'https://www.seisakukikaku.metro.tokyo.lg.jp/information/event02.html'
-        },
-        {
-          title: this.$t('Message from Governor Koike'),
-          link:
-            'https://www.metro.tokyo.lg.jp/tosei/governor/governor/katsudo/2020/03/03_00.html'
-        },
-        {
-          title: this.$t('About us'),
-          link: '/about'
+          title: this.$t('Message from Governor Nagasaki'),
+          link: 'https://www.youtube.com/watch?v=HWI8KfjAt9g'
         },
         {
           title: this.$t('Government official website'),
-          link: 'https://www.metro.tokyo.lg.jp/',
+          link: 'https://www.pref.yamanashi.jp/index.html'
+        },
+        {
+          title: this.$t('Government official Twitter'),
+          link: 'https://twitter.com/coronayamanashi',
+          divider: true
+        },
+        {
+          title: this.$t('About us'),
+          link: '/about',
           divider: true
         }
       ]
@@ -212,7 +188,7 @@ export default {
   }
   &-Logo {
     margin: 20px 16px 0 0;
-    width: 110px;
+    width: 140px;
     @include lessThan($small) {
       margin-top: 0;
     }
