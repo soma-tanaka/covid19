@@ -8,15 +8,6 @@
     <whats-new class="mb-4" :items="newsItems" />
     <v-row class="DataBlock">
       <v-col cols="12" md="6" class="DataCard">
-        <svg-card
-          title="検査陽性者の状況"
-          :title-id="'details-of-confirmed-cases'"
-          :date="Data.inspections_summary.date"
-        >
-          <confirmed-cases-table v-bind="confirmedCases" />
-        </svg-card>
-      </v-col>
-      <v-col cols="12" md="6" class="DataCard">
         <time-bar-chart
           title="陽性患者数"
           :title-id="'number-of-confirmed-cases'"
@@ -69,8 +60,6 @@ import formatGraph from '@/utils/formatGraph'
 import formatTable from '@/utils/formatTable'
 import formatConfirmedCases from '@/utils/formatConfirmedCases'
 import News from '@/data/news.json'
-import SvgCard from '@/components/SvgCard.vue'
-import ConfirmedCasesTable from '@/components/ConfirmedCasesTable.vue'
 
 export default {
   components: {
@@ -78,9 +67,7 @@ export default {
     TimeBarChart,
     TimeStackedBarChart,
     WhatsNew,
-    DataTable,
-    SvgCard,
-    ConfirmedCasesTable
+    DataTable
   },
   data() {
     // 感染者数グラフ
