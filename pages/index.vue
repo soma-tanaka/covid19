@@ -34,15 +34,16 @@
         />
       </v-col>
       <v-col cols="12" md="6" class="DataCard">
-        <time-stacked-bar-chart
+        <time-bar-chart
           title="検査実施数"
           :title-id="'number-of-tested'"
           :chart-id="'time-stacked-bar-chart-inspections'"
           :chart-data="inspectionsGraph"
           :date="Data.inspections_summary.date"
-          :items="inspectionsItems"
-          :labels="inspectionsLabels"
           :unit="'件'"
+          :url="
+            'https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068'
+          "
         />
       </v-col>
     </v-row>
@@ -52,7 +53,6 @@
 <script>
 import PageHeader from '@/components/PageHeader.vue'
 import TimeBarChart from '@/components/TimeBarChart.vue'
-import TimeStackedBarChart from '@/components/TimeStackedBarChart.vue'
 import WhatsNew from '@/components/WhatsNew.vue'
 import Data from '@/data/data.json'
 import DataTable from '@/components/DataTable.vue'
@@ -65,7 +65,6 @@ export default {
   components: {
     PageHeader,
     TimeBarChart,
-    TimeStackedBarChart,
     WhatsNew,
     DataTable
   },
@@ -78,10 +77,8 @@ export default {
     const dischargesGraph = formatGraph(Data.discharges_summary.data)
 
     // 検査実施日別状況
-    const inspectionsGraph = [
-      Data.inspections_summary.data['都内'],
-      Data.inspections_summary.data['その他']
-    ]
+    const inspectionsGraph = formatGraph(Data.inspections_summary.data)
+
     const inspectionsItems = [
       '都内発生（疑い例・接触者調査）',
       'その他（チャーター便・クルーズ船）'
