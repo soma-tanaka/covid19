@@ -54,16 +54,6 @@
           :unit="'件'"
         />
       </v-col>
-      <v-col cols="12" md="6" class="DataCard">
-        <metro-bar-chart
-          title="都営地下鉄の利用者数の推移"
-          :title-id="'predicted-number-of-toei-subway-passengers'"
-          :chart-id="'metro-bar-chart'"
-          :chart-data="metroGraph"
-          :chart-option="metroGraphOption"
-          :date="metroGraph.date"
-        />
-      </v-col>
     </v-row>
   </div>
 </template>
@@ -71,11 +61,9 @@
 <script>
 import PageHeader from '@/components/PageHeader.vue'
 import TimeBarChart from '@/components/TimeBarChart.vue'
-import MetroBarChart from '@/components/MetroBarChart.vue'
 import TimeStackedBarChart from '@/components/TimeStackedBarChart.vue'
 import WhatsNew from '@/components/WhatsNew.vue'
 import Data from '@/data/data.json'
-import MetroData from '@/data/metro.json'
 import DataTable from '@/components/DataTable.vue'
 import formatGraph from '@/utils/formatGraph'
 import formatTable from '@/utils/formatTable'
@@ -88,7 +76,6 @@ export default {
   components: {
     PageHeader,
     TimeBarChart,
-    MetroBarChart,
     TimeStackedBarChart,
     WhatsNew,
     DataTable,
@@ -103,8 +90,6 @@ export default {
     // 退院者グラフ
     const dischargesGraph = formatGraph(Data.discharges_summary.data)
 
-    // 都営地下鉄の利用者数の推移
-    const metroGraph = MetroData
     // 検査実施日別状況
     const inspectionsGraph = [
       Data.inspections_summary.data['都内'],
@@ -136,7 +121,6 @@ export default {
       patientsTable,
       patientsGraph,
       dischargesGraph,
-      metroGraph,
       inspectionsGraph,
       inspectionsItems,
       inspectionsLabels,
@@ -147,60 +131,7 @@ export default {
         title: '県内の最新感染動向',
         date: Data.lastUpdate
       },
-      newsItems: News.newsItems,
-      metroGraphOption: {
-        responsive: true,
-        legend: {
-          display: true
-        },
-        scales: {
-          xAxes: [
-            {
-              position: 'bottom',
-              stacked: false,
-              gridLines: {
-                display: true
-              },
-              ticks: {
-                fontSize: 10,
-                maxTicksLimit: 20,
-                fontColor: '#808080'
-              }
-            }
-          ],
-          yAxes: [
-            {
-              stacked: false,
-              gridLines: {
-                display: true
-              },
-              ticks: {
-                fontSize: 12,
-                maxTicksLimit: 10,
-                fontColor: '#808080',
-                callback(value) {
-                  return value.toFixed(2) + '%'
-                }
-              }
-            }
-          ]
-        },
-        tooltips: {
-          displayColors: false,
-          callbacks: {
-            title(tooltipItems, _) {
-              const label = tooltipItems[0].label
-              return `期間: ${label}`
-            },
-            label(tooltipItem, data) {
-              const currentData = data.datasets[tooltipItem.datasetIndex]
-              const percentage = `${currentData.data[tooltipItem.index]}%`
-
-              return `${metroGraph.base_period}の利用者数との相対値: ${percentage}`
-            }
-          }
-        }
-      }
+      newsItems: News.newsItems
     }
     return data
   },
