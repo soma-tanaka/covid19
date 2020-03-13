@@ -56,17 +56,6 @@
       </v-col>
       <v-col cols="12" md="6" class="DataCard">
         <time-bar-chart
-          title="新型コロナコールセンター相談件数"
-          :title-id="'number-of-reports-to-covid19-telephone-advisory-center'"
-          :chart-id="'time-bar-chart-contacts'"
-          :chart-data="contactsGraph"
-          :date="Data.contacts.date"
-          :unit="'件'"
-          :url="''"
-        />
-      </v-col>
-      <v-col cols="12" md="6" class="DataCard">
-        <time-bar-chart
           title="新型コロナ受診相談窓口相談件数"
           :title-id="'number-of-reports-to-covid19-consultation-desk'"
           :chart-id="'time-bar-chart-querents'"
@@ -125,8 +114,6 @@ export default {
     // 退院者グラフ
     const dischargesGraph = formatGraph(Data.discharges_summary.data)
 
-    // 相談件数
-    const contactsGraph = formatGraph(Data.contacts.data)
     // 帰国者・接触者電話相談センター相談件数
     const querentsGraph = formatGraph(Data.querents.data)
     // 都営地下鉄の利用者数の推移
@@ -162,7 +149,6 @@ export default {
       patientsTable,
       patientsGraph,
       dischargesGraph,
-      contactsGraph,
       querentsGraph,
       metroGraph,
       inspectionsGraph,
