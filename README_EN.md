@@ -9,7 +9,6 @@
 ## How to Contribute
 
 All contributions are welcome!
-Please check [How to contribute](./.github/CONTRIBUTING_EN.md) for details.
 
 ## Code of Conduct
 

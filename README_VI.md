@@ -8,8 +8,6 @@
 
 ## Làm thế nào để đóng góp
 Mọi đóng góp của các bạn đều được chào đón. 
-Xin vui lòng đọc [tại đây](./.github/CONTRIBUTING_VI.md) để biết thêm chi tiết.
-
 
 ## Quy tắc ứng xử
 Chi tiết vui lòng xem [tại đây](./.github/CODE_OF_CONDUCT_VI.md)

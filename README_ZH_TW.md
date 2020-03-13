@@ -9,9 +9,6 @@
 ## 如何貢獻
 如果您能對 Issues 中做出各式各樣的修正協助，我們將不勝感激。
 
-詳情請洽[如何貢獻](./.github/CONTRIBUTING_ZH_TW.md)。
-
-
 ## 行動原則
 詳情請洽[建立網站的行動原則](./.github/CODE_OF_CONDUCT_ZH_TW.md)。
 
