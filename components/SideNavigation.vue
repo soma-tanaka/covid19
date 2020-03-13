@@ -39,11 +39,7 @@
       </v-list>
       <div class="SideNavigation-Footer">
         <div class="SideNavigation-SocialLinkContainer">
-          <a
-            href="https://twitter.com/Covid19Y"
-            target="_blank"
-            rel="noopener"
-          >
+          <a href="https://twitter.com/Covid19Y" target="_blank" rel="noopener">
             <img src="/twitter.png" alt="Twitter" />
           </a>
           <a href="https://github.com/covid19-yamanashi/covid19">
@@ -112,7 +108,8 @@ export default {
         {
           icon: 'mdi-account-multiple',
           title: this.$t('for Citizens'),
-          link: 'https://www.pref.yamanashi.jp/koucho/coronavirus/info_coronavirus.html'
+          link:
+            'https://www.pref.yamanashi.jp/koucho/coronavirus/info_coronavirus.html'
         },
         {
           icon: 'parent',
@@ -127,12 +124,11 @@ export default {
         },
         {
           title: this.$t('Message from Governor Nagasaki'),
-          link:
-            'https://www.youtube.com/watch?v=HWI8KfjAt9g'
+          link: 'https://www.youtube.com/watch?v=HWI8KfjAt9g'
         },
         {
           title: this.$t('Government official website'),
-          link: 'https://www.pref.yamanashi.jp/index.html',
+          link: 'https://www.pref.yamanashi.jp/index.html'
         },
         {
           title: this.$t('Government official Twitter'),
@@ -141,9 +137,9 @@ export default {
         },
         {
           title: this.$t('About us'),
-          link: '/about'
+          link: '/about',
           divider: true
-        } 
+        }
       ]
     },
     isClass() {
