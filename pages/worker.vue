@@ -32,18 +32,11 @@ export default {
             '子どもが小学校や保育所等へ登校・登園をしなかったことに伴い保護者が休業を余儀なくされた方に、一定額の助成を行うものです。'
         },
         {
-          title: '経済変動対策融資（経済危機関係）',
+          title: '経済変動対策融資',
           link:
-            'https://www.pref.yamanashi.jp/koucho/coronavirus/documents/r020302keizaikiki.pdf',
+            'https://www.pref.yamanashi.jp/koucho/coronavirus/info_coronavirus.html#yuushijouhou',
           body:
-            '1カ月間の売上高等が前年同月比で20％以上減少しており、かつ、その後の2カ月間を含む3カ月間の売上高等が前年同期比で20％以上の減少が見込まれる方が対象です。'
-        },
-        {
-          title: '経済変動対策融資（不況業種対策関係）',
-          link:
-            'https://www.pref.yamanashi.jp/koucho/coronavirus/documents/r020306fukyougyousyu.pdf',
-          body:
-            '中小企業信用保険法第2条第5項第5号で指定する不況業種で、直近3カ月間の売上高等が前年同期比5%以上減少するなどしている方が対象です。'
+            '県では、新型コロナウイルス感染拡大の影響により売上が減少した際に活用できる経済変動対策融資を行っています。'
         },
         {
           title: 'その他の融資',
