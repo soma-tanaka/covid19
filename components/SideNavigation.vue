@@ -42,6 +42,9 @@
           <a href="https://twitter.com/Covid19Y" target="_blank" rel="noopener">
             <img src="/twitter.png" alt="Twitter" />
           </a>
+          <a href="https://www.facebook.com/covid19.yamanashi" target="_blank" rel="noopener">
+            <img src="/facebook.png" alt="Facebook" />
+          </a>
           <a href="https://github.com/covid19-yamanashi/covid19">
             <img src="/github.png" alt="GitHub" />
           </a>
