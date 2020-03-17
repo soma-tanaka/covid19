@@ -1052,9 +1052,9 @@
           <tspan x="-89.817" y="0">PCR検査</tspan>
         </text>
         <g transform="translate(-101 1091)">
-          <text class="b" transform="translate(238 106)">
-            <tspan x="-77" y="0">東京都健康安全</tspan>
-            <tspan x="-77" y="25">研究センター等</tspan>
+          <text class="b" transform="translate(261 106)">
+            <tspan x="-77" y="0">感染症指定</tspan>
+            <tspan x="-77" y="25">医療機関等</tspan>
           </text>
         </g>
       </g>
