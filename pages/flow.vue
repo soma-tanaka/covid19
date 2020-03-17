@@ -110,11 +110,11 @@
               <dd>
                 <a
                   class="Link"
-                  href="https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/coronasodan.html"
+                  href="https://www.pref.yamanashi.jp/koucho/coronavirus/info_coronavirus.html#soudanmadoguchi"
                   target="_blank"
                   rel="noopener"
                 >
-                  各保健所の電話番号は福祉保健局HPへ
+                  こちらから管轄地域の保健所へご連絡ください
                   <v-icon size="16">
                     mdi-open-in-new
                   </v-icon>
