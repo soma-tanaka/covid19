@@ -356,9 +356,9 @@
           />
         </g>
       </g>
-      <text class="b" transform="translate(622 555)">
-        <tspan x="-55" y="0">新型コロナ</tspan>
-        <tspan x="-76.67" y="25">コールセンター</tspan>
+      <text class="b" transform="translate(580 555)">
+        <tspan x="-55" y="0">新型コロナウイルス</tspan>
+        <tspan x="-76.67" y="25">感染症専用相談ダイヤル</tspan>
       </text>
       <text class="c" transform="translate(622 614)">
         <tspan x="-75.392" y="0">午前9時から午後9時</tspan>
@@ -1193,7 +1193,7 @@
               <tspan x="0" y="22">ご連絡ください</tspan>
             </text>
           </a>
-          <g transform="translate(927 318)">
+          <g transform="translate(887 318)">
             <path class="d" d="M0,0H19V19H0Z" />
             <path
               class="ao"
@@ -1203,10 +1203,10 @@
           </g>
         </g>
       </g>
-      <text class="an" transform="translate(633 679)">
-        <tspan x="-79.555" y="0">0570-550571</tspan>
+      <text class="an" transform="translate(629 679)">
+        <tspan x="-79.555" y="0">055-223-8896</tspan>
       </text>
-      <g transform="translate(520 656)">
+      <g transform="translate(516 656)">
         <path class="d" d="M0,0H26V26H0Z" />
         <path
           class="e"

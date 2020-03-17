@@ -73,12 +73,12 @@
           <div class="mx-2 mb-5">
             <img
               src="/flow/sp/sp_flow_04@2x.png"
-              alt="不安に思う方／微熱・軽い咳・感染の不安／新型コロナコールセンター 午前９時から午後９時（土日祝含む）"
+              alt="不安に思う方／微熱・軽い咳・感染の不安／新型コロナウイルス感染症専用相談ダイヤル 午前９時から午後９時（土日祝含む）"
             />
           </div>
           <div class="TelLink">
-            <a href="tel:0570550571"
-              ><img src="/flow/sp/sp_flow_tel_01@2x.png" alt="0570-550571"
+            <a href="tel:0552238896"
+              ><img src="/flow/sp/sp_flow_tel_01@2x.png" alt="055-223-8896"
             /></a>
           </div>
           <div class="mt-4">
