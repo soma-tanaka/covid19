@@ -77,9 +77,9 @@
             />
           </div>
           <div class="TelLink">
-            <a href="tel:0552238896"
-              ><img src="/flow/sp/sp_flow_tel_01@2x.png" alt="055-223-8896"
-            /></a>
+            <a href="tel:0552238896">
+              <img src="/flow/sp/sp_flow_tel_01@2x.png" alt="055-223-8896" />
+            </a>
           </div>
           <div class="mt-4">
             <a v-scroll-to="'#consult'" href="#consult">
