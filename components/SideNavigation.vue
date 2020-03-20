@@ -42,11 +42,7 @@
           <a href="https://twitter.com/Covid19Y" target="_blank" rel="noopener">
             <img src="/twitter.png" alt="Twitter" />
           </a>
-          <a
-            href="https://www.facebook.com/covid19.yamanashi"
-            target="_blank"
-            rel="noopener"
-          >
+          <a href="https://www.facebook.com/covid19.yamanashi" target="_blank" rel="noopener">
             <img src="/facebook.png" alt="Facebook" />
           </a>
           <a href="https://github.com/covid19-yamanashi/covid19">
@@ -83,7 +79,8 @@
     "for Citizens": "山梨県による総合情報",
     "for Families with children": "お子様をお持ちの皆様へ",
     "for Enterprises and Employees": "企業の皆様・はたらく皆様へ",
-    "for Lodging business": "宿泊事業者の皆さまへ",
+    "for Lodging business": "宿泊事業者の皆様へ",
+    "Information from Municipalities": "各市町村からの情報",
     "Message from Governor Nagasaki": "知事からのメッセージ",
     "Government official website": "山梨県公式ホームページ",
     "Government official Twitter": "山梨県新型コロナウイルス対策 Twitter",
@@ -111,7 +108,8 @@ export default {
         {
           icon: 'mdi-chart-timeline-variant',
           title: this.$t('The latest updates'),
-          link: '/'
+          link: '/',
+          divider: true
         },
         {
           icon: 'mdi-account-multiple',
@@ -133,6 +131,11 @@ export default {
           icon: 'mdi-domain',
           title: this.$t('for Lodging business'),
           link: '/lodging',
+          divider: true
+        },
+        {
+          title: this.$t('Information from Municipalities'),
+          link: '/cities',
           divider: true
         },
         {
