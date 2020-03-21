@@ -22,6 +22,12 @@ const config: Configuration = {
           '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、山梨県の有志チームが開設したものです。'
       },
       {
+        hid: 'author',
+        name: 'author',
+        content:
+          'stopcovid19.yamanashi.dev'
+      },
+      {
         hid: 'og:site_name',
         property: 'og:site_name',
         content: '山梨県 新型コロナウイルス感染症対策サイト'
